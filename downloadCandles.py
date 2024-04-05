@@ -28,7 +28,7 @@ def download_candles(symbol, timeframe, start_date, end_date):
     
     return candles
 
-def save_to_csv(candles, filename):
+def save2csv(candles, filename):
     # Convert candles data to DataFrame
     df = pd.DataFrame(candles)
     
@@ -49,4 +49,4 @@ if __name__ == "__main__":
     candles = download_candles(symbol, timeframe, start_date, end_date)
     if candles is not None:
         # Save candles to CSV
-        save_to_csv(candles, filename)
+        save2csv(candles, filename)
