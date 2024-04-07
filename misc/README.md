@@ -8,9 +8,14 @@ To download candle data using MetaTrader 5, follow these steps:
 
 1. Install MetaTrader 5 on your machine and configure it to enable "auto-trading".
 2. Utilize the provided Python script to download candle data.
-3. Ensure you have the necessary dependencies installed (MetaTrader5, pandas, pytz).
-4. Adjust parameters such as symbol, timeframe, start_date, end_date, and filename as needed.
-5. Run the script to download and save the candle data to a CSV file.
+3. Ensure you have the necessary dependencies installed (MetaTrader5, pandas, pytz). Use pip command if necessary:
+  ```
+  pip install MetaTrader5
+  pip install pandas
+  pip install pytz
+```
+5. Adjust parameters such as symbol, timeframe, start_date, end_date, and filename as needed.
+6. Run the script to download and save the candle data to a CSV file.
 
 ### CSVs Used in Training and Testing
 This folder also contains CSV files used for training and testing in the project.
