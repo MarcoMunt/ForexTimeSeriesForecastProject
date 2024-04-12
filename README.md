@@ -15,7 +15,7 @@ To run the project, follow these simple steps:
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/your/repository.git
+git clone https://github.com/MarcoMunt/ForexTimeSeriesForecastProject.git
 cd ForexTimeSeriesForecastProject
 ```
 
